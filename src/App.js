@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div>
-    <h1>Hello World</h1>
-    <p>This is a Paragraph</p>
-    </div>
+    <>
+    <form className='new-item-form'>
+      
+      <label htmlFor="item">New Item</label> 
+      <input type="text" id='item'/>
+      <button className='btn'>Add</button>
+    </form>
+    <h1>Todo List</h1>
+    </>
+
   );
 }
 
